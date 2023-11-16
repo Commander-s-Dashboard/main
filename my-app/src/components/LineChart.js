@@ -40,7 +40,7 @@ const options = {
   plugins: {
     title: {
       display: true,
-      text: 'Equipment Status Trends',
+      text: 'Chart.js Line Chart - Multi Axis',
     },
   },
   scales: {

@@ -6,6 +6,9 @@ import Image from 'next/image';
 
 const Page = async () => {
 
+  const data = await prisma.mytable.findMany();
+  console.log(data);
+
   const cardInfo = [
     {name: 'Mission', href: '/dashboard/mission'},
     {name: 'Periodic', href: '/dashboard/periodic'},

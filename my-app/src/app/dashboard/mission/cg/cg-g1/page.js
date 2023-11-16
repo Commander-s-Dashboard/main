@@ -1,5 +1,3 @@
-'use client'
-
 import React, { useState, useTransition } from 'react';
 import TabButton from '@/components/TabButton';
 import { CG1_Open_Jobs } from './cg-g1-open-jobs/page';
@@ -31,13 +29,12 @@ export const CG_G1 = () => {
 
   return (
     <div className="container h-screen">
-      <div className="p-4 flex flex-row justify-start">
+      <div className="px-4 flex flex-row justify-start">
         <TabButton
           selectTab={() => handleTabChange("openJobs")}
           active={tab === "openJobs"}
         >
-          {/* {" "}Open Jobs{" "} */}
-          <a target="_blank" href="https://www.usajobs.gov/" rel="noopener noreferrer">Open Jobs</a>
+          {" "}Open Jobs{" "}
         </TabButton>
         <TabButton
           selectTab={() => handleTabChange("strengthReport")}
@@ -47,7 +44,13 @@ export const CG_G1 = () => {
         </TabButton>
       </div>
       <div className="row">
-        {CG1_TABS.find((t) => t.id === tab).content}
+        <div className="card card-side bg-base-100 shadow-xl h-screen">
+          <div className="card-body">
+            <h2 className="card-title">
+              {CG1_TABS.find((t) => t.id === tab).content}
+            </h2>
+          </div>
+        </div>
       </div>
     </div>
   )
