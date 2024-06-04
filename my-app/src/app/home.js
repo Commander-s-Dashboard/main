@@ -13,6 +13,7 @@ export default function Home() {
       <div className="z-10 max-w-5xl text-center w-full items-center justify-between font-mono text-sm lg:flex">
         <PieChart width={500} height={500} data={data} />
       </div>
+	  <Footer />
     </main>
   )
 }
