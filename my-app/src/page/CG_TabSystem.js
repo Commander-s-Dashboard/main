@@ -2,7 +2,7 @@
 
 import React, { useState, useTransition, useEffect } from 'react';
 import Link from 'next/link';
-import TabButton from '@/components/TabButton';
+import TabButton from '@/page/TabButton';
 import Footer from './Footer';
 import { getCookies, setCookie, deleteCookie, getCookie } from 'cookies-next';
 
@@ -13,9 +13,9 @@ import G4 from '@/app/dashboard/mission/cg/g4/page';
 // import CG_G4 from '@/app/dashboard/mission/cg/cg-g4/page';
 import CG_G8 from '@/app/dashboard/mission/cg/cg-g8/page';
 import CG_Medical from '@/app/dashboard/mission/cg/cg-medical/page';
-import PieChart from '@/components/PieChart';
-import GeoMap from '@/components/GeoMap';
-import LineChart from '@/components/LineChart';
+import PieChart from '@/page/PieChart';
+import GeoMap from '@/page/GeoMap';
+import LineChart from '@/page/LineChart';
 import { CG1_Strength_Report } from '@/app/dashboard/mission/cg/cg-g1/cg-g1-strength-report/page';
 
 const CG_TabSystem = ({ data }) => {

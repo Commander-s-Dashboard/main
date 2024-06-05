@@ -1,10 +1,10 @@
 import React from 'react';
-import PieChart from '@/components/PieChart';
+import PieChart from '@/page/PieChart';
 import prisma from '@/modules/db';
-import LineChart from '@/components/LineChart';
-import GeoMap from '@/components/GeoMap';
-import StackedBarChart from '@/components/StackedBarChart';
-import BudgetLineChart from '@/components/BudgetChart';
+import LineChart from '@/page/LineChart';
+import GeoMap from '@/page/GeoMap';
+import StackedBarChart from '@/page/StackedBarChart';
+import BudgetLineChart from '@/page/BudgetChart';
 
 const Page = async () => {
   const data = await prisma.equipment_table.findMany();

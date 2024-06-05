@@ -2,9 +2,10 @@ import React from 'react';
 import db from '@/modules/db';
 import prisma from '@/modules/db';
 import Image from 'next/image';
-import BudgetChart from '@/components/BudgetChart';
-import GeoMap from '@/components/GeoMap';
-import Footer from '@/components/Footer';
+import BudgetChart from '@/page/BudgetChart';
+import GeoMap from '@/page/GeoMap';
+import Footer from '@/page/Footer';
+import Navbar from '@/page/Navbar';
 // import {Card, CardBody } from "@material-tailwind/react";
 
 const Page = async () => {
@@ -16,8 +17,10 @@ const Page = async () => {
   ]
 
   return (
+
     // <div className="bg-white px-2 py-8 sm:py-4 lg:px-6 h-screen align-middle">
     <div className="bg-white h-screen align-middle">
+      <Navbar />
       <Image
         src="/9th_banner2.png"
         width={1500}

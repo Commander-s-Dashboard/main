@@ -1,12 +1,12 @@
 'use client'
 
 import React, { useState, useTransition } from 'react';
-import TabButton from '@/components/TabButton';
+import TabButton from '@/page/TabButton';
 import { CG1_Open_Jobs } from './cg-g1-open-jobs/page';
 import { CG1_Closed_Jobs } from './cg-g1-closed-jobs/page';
 import { CG1_Strength_Report } from './cg-g1-strength-report/page';
 import { CG1_Archived_Jobs } from './cg-g1-archived-jobs/page';
-import Footer from '@/components/Footer';
+import Footer from '@/page/Footer';
 
 export const CG_G1 = () => {
 

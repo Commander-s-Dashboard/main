@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
-import Sidebar from '@/components/Sidebar';
-import Footer from '@/components/Footer';
+import Sidebar from '@/page/Sidebar';
+import Footer from '@/page/Footer';
 
 const layout = (props) => {
   return (

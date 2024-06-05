@@ -3,9 +3,9 @@ import prisma from '@/modules/db';
 import { cookies } from 'next/headers'
 import { getCookies, setCookie, deleteCookie, getCookie } from 'cookies-next';
 
-import CG_TabSystem from '@/components/CG_TabSystem';
-import Footer from '@/components/Footer';
-import PieChart from '@/components/PieChart';
+import CG_TabSystem from '@/page/CG_TabSystem';
+import Footer from '@/page/Footer';
+import PieChart from '@/page/PieChart';
 
 const Page = async () => {
 

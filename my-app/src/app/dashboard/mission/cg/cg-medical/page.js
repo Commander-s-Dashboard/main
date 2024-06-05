@@ -1,6 +1,6 @@
 import React from 'react';
-import StackedBarChart from '@/components/StackedBarChart';
-import Footer from '@/components/Footer';
+import StackedBarChart from '@/page/StackedBarChart';
+import Footer from '@/page/Footer';
 
 const CG_Medical = async ({data}) => {
 

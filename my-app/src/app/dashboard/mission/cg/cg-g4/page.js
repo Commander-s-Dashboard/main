@@ -1,9 +1,9 @@
 'use client'
 
 import React from 'react';
-import PieChart from '@/components/PieChart';
-import LineChart from '@/components/LineChart';
-import GeoMap from '@/components/GeoMap';
+import PieChart from '@/page/PieChart';
+import LineChart from '@/page/LineChart';
+import GeoMap from '@/page/GeoMap';
 
 
 const CG_G4 = ({data}) => {

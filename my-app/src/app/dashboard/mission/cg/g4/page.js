@@ -1,10 +1,10 @@
 'use client'
 
 import React, {useState, useEffect} from 'react';
-import PieChart from '@/components/PieChart';
-import LineChart from '@/components/LineChart';
-import GeoMap from '@/components/GeoMap';
-import Footer from '@/components/Footer';
+import PieChart from '@/page/PieChart';
+import LineChart from '@/page/LineChart';
+import GeoMap from '@/page/GeoMap';
+import Footer from '@/page/Footer';
 import { getCookies, setCookie, deleteCookie, getCookie } from 'cookies-next';
 
 const G4 = async ({ data }) => {

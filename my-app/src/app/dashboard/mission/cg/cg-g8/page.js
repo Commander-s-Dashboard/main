@@ -1,8 +1,8 @@
 'use client'
 
-import Footer from '@/components/Footer';
+import Footer from '@/page/Footer';
 import React, { useState, useRef, useEffect } from 'react';
-import BudgetChart from '@/components/BudgetChart';
+import BudgetChart from '@/page/BudgetChart';
 
 const CG_G8 = ({data}) => {
   const parseBudgetData = (data2) => {

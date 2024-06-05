@@ -1,5 +1,5 @@
 import React from 'react'
-import BarChart from '@/components/BarChart'
+import BarChart from '@/page/BarChart'
 import { getCookies, setCookie, deleteCookie, getCookie } from 'cookies-next';
 
 export const CG1_Strength_Report = () => {
