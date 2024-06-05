@@ -1,8 +1,9 @@
 import Image from 'next/image'
-import PieChart from '@/page/PieChart';
-import Footer from '@/page/Footer';
+import PieChart from '@/components/PieChart';
+import Footer from '@/components/Footer';
+import Page from '@/app/dashboard/page';
 
-export default function Page() {
+export default function Home() {
   const data = [
     {name: "mark", value: 150},
     {name: "jeff", value: 200},
@@ -10,14 +11,10 @@ export default function Page() {
     {name: "perry", value: 230},
   ];
   return (
-    <body>
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between ">
       <div className="z-10 max-w-5xl text-center w-full items-center justify-between font-mono text-sm lg:flex">
-        <PieChart width={500} height={500} data={data}/>
+        <Page />
       </div>
-
     </main>
-    < Footer></Footer>
-    </body>
   )
 }
