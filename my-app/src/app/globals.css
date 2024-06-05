@@ -24,3 +24,31 @@ body {
   height: 37vh;
   width: 35vw;
 }
+
+
+.footer {
+  width: 100%;
+  background-color: #3b82f6; /* Blue color */
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Optional: to limit the max width of the footer content */
+}
+
+.footer-text {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-image {
+  left: 0;
+
+}

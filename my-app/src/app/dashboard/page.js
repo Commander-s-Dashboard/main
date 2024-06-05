@@ -71,7 +71,6 @@ const Page = async () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
