@@ -1,6 +1,5 @@
 // components/Navbar.js
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 const Navbar = () => {
   const style = {
@@ -16,7 +15,7 @@ const Navbar = () => {
         <img src="/9th MSC.png" alt="image description" width="111" height="111" className="mr-2" />
         <div style={style}>
           <div>Hello my name is</div>
-          <div>Sunshine<div/>
+          <div>Sunshine</div>
         </div>
       </div>
       <ul className="navbar-nav ml-auto d-flex align-items-center">
